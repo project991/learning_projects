@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.navbar .title {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.navbar p {
+    position: absolute;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+span {
+    color: red;
+}
+
+/*.title-1 span {
+    color: blue;
+}
+
+.home p span {
+    color: yellow;
+} */
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+
+.menu li a:hover {
+    color: red;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    border: 2px solid red;
+}
+
+.home {
+    height: 400px;
+    padding: 80px;
+}
+
+.title-1 {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.home p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;   
+}
+
+.home button {
+    height: 40px;
+    color: #fff;
+    background: red;
+    padding: 8px 30px;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.home button:hover {
+    border: 2px solid red;
+    background: #fff;
+    color: red;
+}
